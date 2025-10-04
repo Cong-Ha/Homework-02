@@ -5,5 +5,5 @@ services:
     image: uzomaki/homework-02:latest
     container_name: homework-02
     ports:
-      - "3001:3000"
+      - "3001:3700"
     restart: unless-stopped
