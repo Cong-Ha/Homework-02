@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    image: uzomaki/homework-02:latest
+    container_name: homework-02
+    ports:
+      - "3001:3000"
+    restart: unless-stopped
